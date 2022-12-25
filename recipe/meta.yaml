@@ -1,5 +1,5 @@
 {% set name = "selinux" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/selinux-{{ version }}.tar.gz
-  sha256: d435f514e834e3fdc0941f6a29d086b80b2ea51b28112aee6254bd104ee42a74
+  sha256: 2a88b337ac46ad0f06f557b2806c3df62421972f766673dd8bf26732fb75a9ea
 
 build:
   number: 0
